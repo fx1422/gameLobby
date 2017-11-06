@@ -233,6 +233,9 @@ body {
   position: relative;
   background-color: #ccc;
 }
+a {
+  cursor: pointer;
+}
 .wrapper {
   position: absolute;
   z-index: 1;
@@ -261,14 +264,6 @@ body {
 .wrapper .scroller .top-tips {
   position: absolute;
   top: -3rem;
-  max-width: 640px;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-.wrapper .scroller .bot-tips {
-  position: absolute;
-  bottom: -3rem;
   max-width: 640px;
   left: 0;
   right: 0;
@@ -360,4 +355,12 @@ body {
   margin: auto;
   color: #fff;
   display: none;
+}
+.wrapper .bot-tips {
+  position: absolute;
+  bottom: -3rem;
+  max-width: 640px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
